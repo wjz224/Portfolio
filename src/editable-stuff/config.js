@@ -6,30 +6,19 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Wilson",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Zheng",
+  message: "I am passionate about changing the world and improving lives through technology.",
+  message2: "👋 Hello! Welcome to my portfolio.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/wjz224",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/wilson-zheng24/",
     },
   ],
 };
@@ -54,7 +43,7 @@ const about = {
   imageLink: require("../editable-stuff/hashirshoaeb.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "👋 My name is Wilson Zheng. I graduated from Lehigh University in 2024 with a Bachelor of Science in Computer Science. I am passionate about leveraging technology to solve global challenges and improve lives. As a motivated individual with a love for continuous learning, I am currently seeking a software engineering opportunity where I can contribute my skills and grow professionally. In my free time, I enjoy playing soccer, basketball, skiing, volunteering, and learning new technology.",
   resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 };
 
@@ -100,24 +89,28 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Java", value: 90 },
+    { name: "C/C++", value: 80},
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Python", value: 70 },
+    { name: "JavaScript", value: 70},
+    { name: "HTML/CSS", value: 70},
+    { name: "React", value: 60},
+    { name: "AWS", value: 70 },
+    { name: "Google Cloud Platform", value: 65},
+    { name: "Data Structures", value: 80 },
+
+   
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 90 },
+    { name: "Empathy", value: 90 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 75},
   ],
 };
 
@@ -126,8 +119,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "wilsonzheng816@gmail.com",
 };
 
 const experiences = {
