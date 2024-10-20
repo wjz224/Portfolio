@@ -23,28 +23,15 @@ const mainBody = {
   ],
 };
 
-// ABOUT SECTION
-// If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
-//a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
-//b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
-//c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
-//d) If you do not want any picture to be displayed, just leave it empty :)
-//      i.e: profilePictureLink: "",
-// For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
 
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/GradPhoto.png"),
   imageSize: 375,
   message:
     "👋 My name is Wilson Zheng. I graduated from Lehigh University in 2024 with a Bachelor of Science in Computer Science. I am passionate about leveraging technology to solve global challenges and improve lives. As a motivated individual with a love for continuous learning, I am currently seeking a software engineering opportunity where I can contribute my skills and grow professionally. In my free time, I enjoy playing soccer, basketball, skiing, volunteering, and learning new technology.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://drive.google.com/file/d/1zKg3cVleiITyFU3_TbSckCxk06PyuzDh/view?usp=drive_link",
 };
 
 // PROJECTS SECTION
@@ -55,9 +42,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "wjz224", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ['Lutron-Capstone-Project', 'BuzzMedia', 'Health-Map', 'FindCamps', 'Scheme-Interpreter','Scramble-Scrolls', ],
 };
 
 // Leadership SECTION
@@ -68,12 +55,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/GradPhoto.png"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/GradPhoto.png"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
