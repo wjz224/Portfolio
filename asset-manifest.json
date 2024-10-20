@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.dd62fb72.css",
+    "main.js": "/home/static/js/main.9fdf5103.js",
+    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
+    "static/media/GradPhoto.png": "/home/static/media/GradPhoto.cbbae8437436312e937d.png",
+    "index.html": "/home/index.html",
+    "main.dd62fb72.css.map": "/home/static/css/main.dd62fb72.css.map",
+    "main.9fdf5103.js.map": "/home/static/js/main.9fdf5103.js.map",
+    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd62fb72.css",
+    "static/js/main.9fdf5103.js"
+  ]
+}
